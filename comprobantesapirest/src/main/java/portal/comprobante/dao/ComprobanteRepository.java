@@ -23,7 +23,7 @@ public class ComprobanteRepository implements IComprobanteRepository
 		
 		try {
 			conn = dataSource.getConnection();
-			ps = conn.prepareStatement("CALL RegistrarComprobante ?,?,?,?,?,?,?,?");
+			ps = conn.prepareStatement("CALL RegistrarComprobante (?,?,?,?,?,?,?,?)");
 			ps.setString(1, comprobante.getRucEmisor());
 			ps.setString(2, comprobante.getRuc());
 			ps.setString(3, comprobante.getTipoDocumento());
@@ -52,7 +52,7 @@ public class ComprobanteRepository implements IComprobanteRepository
 		
 		try {
 			conn = dataSource.getConnection();
-			ps = conn.prepareStatement("CALL ActualizarEstado ?,?,?,?,?,?");
+			ps = conn.prepareStatement("CALL ActualizarEstado (?,?,?,?,?,?)");
 			ps.setString(1, comprobante.getRucEmisor());
 			ps.setString(2, comprobante.getRuc());
 			ps.setString(3, comprobante.getTipoDocumento());

@@ -1,4 +1,4 @@
-package portal.comprobantesapirest;
+package portal.comprobantessite;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

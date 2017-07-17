@@ -1,8 +1,7 @@
-package portal.comprobante.entity;
+package portal.comprobante.dto;
 
-public class Comprobante 
+public class ComprobanteDto 
 {
-	private int id;
 	private String rucEmisor;
 	private String ruc;
 	private String tipoDocumento;
@@ -13,10 +12,6 @@ public class Comprobante
 	private String pdf;
 	private String estado;
 	private String descripcionEstado;
-	
-	public int getId() {
-		return id;
-	}
 	
 	public String getRucEmisor() {
 		return rucEmisor;
