@@ -10,9 +10,6 @@
   <name>comprobantessite</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <dependencies>
     <dependency>
@@ -106,4 +103,8 @@
 	    <version>1.7.25</version>
 	</dependency>
   </dependencies>
+  
+  <build>
+    <finalName>comprobantessite</finalName>
+  </build>
 </project>

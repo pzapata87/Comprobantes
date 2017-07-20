@@ -6,8 +6,8 @@
 <tiles-definitions>
 		
 	<!-- ####################### PÁGINA LOGIN ####################### -->	
-	<definition name="login" template="/WEB-INF/templates/layoutLogin.jsp">
-		<put-attribute name="content" value="/WEB-INF/views/login.jsp" />		
+	<definition name="login" template="/WEB-INF/templates/layoutMaster.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/buscar.jsp" />		
 	</definition>
 
 </tiles-definitions>
