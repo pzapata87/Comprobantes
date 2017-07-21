@@ -1,4 +1,4 @@
-var loginJs = function () {	
+var comprobanteJs = function () {	
 	var aplicarHandlers = function() {		
 		$('#frmLogin').on('submit', function (e) {
 			webApp.showLoading();

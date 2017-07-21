@@ -1,4 +1,4 @@
-﻿<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <div class="Panel-Busqueda">
 	<div class="Logo-Empresa">
@@ -9,7 +9,7 @@
 	
 	<h4 class="text-center">BUSCA TU COMPROBANTE</h4>
 	   		
-	<form method="POST" action="http://primax.factus.pe/Public/20554545743/resultado">   	
+	<form action="login" method="POST" id="frmBuscar">   	
 	   	<div class="form-group">
 	   		<select id="tipoComprobante" onchange="evaluaBoleta()" name="tipoComprobante" required="" class="selectpicker form-control input-sm">
 				<option>Tipo de Documento</option>
@@ -29,7 +29,7 @@
 	   	</div>
 		<div class="date-form">
 			<div class="form-group">
-				<input id="date-picker-1" readonly="true" type="text" name="fechaComprobante" class="date-picker form-control input-sm" required="" placeholder="Fecha de emisión">
+				<input id="date-picker-1" readonly="true" type="text" name="fechaComprobante" class="date-picker form-control input-sm" required="" placeholder="Fecha de emisi�n">
 			</div>
 	  		<div class="form-group">
 	    		<input type="text" id="montoTotal" name="montoTotal" class="form-control input-sm" required="" placeholder="Monto">

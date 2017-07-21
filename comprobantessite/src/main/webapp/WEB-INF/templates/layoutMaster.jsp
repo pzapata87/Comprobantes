@@ -62,7 +62,7 @@
 	<spring:url value="/resources/js/ace/ace.js" var="aceJs" />
 	
 	<spring:url value="/resources/js/webApp.js" var="webAppJs" />
-	<spring:url value="/resources/js/viewsJs/login.js" var="loginJs" />		
+	<spring:url value="/resources/js/viewsJs/comprobante.js" var="comprobanteJs" />		
 	
 	<!--[if !IE]> -->
 	<script type="text/javascript">
@@ -85,10 +85,10 @@
 	<script type="text/javascript"> ace.vars['base'] = '..'; </script>
 	
 	<script src="${webAppJs}"></script>
-	<script src="${loginJs}"></script>
+	<script src="${comprobanteJs}"></script>
     <script type="text/javascript">
 	    $(function () {	        
-	    	loginJs.init();
+	    	comprobanteJs.init();
 	    });
 	</script>
 </body>

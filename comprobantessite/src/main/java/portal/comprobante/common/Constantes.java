@@ -8,5 +8,8 @@ public class Constantes
 	public static final String nullSymbol = "null";
 	
 	public static final String buscarAction = "/buscar";
-	public static final String buscarView = "login";
+	public static final String buscarView = "buscar";
+	
+	public static final String resultadoAction = "/resultado";
+	public static final String resultadoView = "resultado";
 }
